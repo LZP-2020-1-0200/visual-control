@@ -1,3 +1,7 @@
+
+ffmpeg-master-latest-win64-gpl.zip
+
+
 ffmpeg -list_devices true -f dshow -i dummy
 
 [dshow @ 000001966f708b40] DirectShow video devices (some may be both video and audio devices)
