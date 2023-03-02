@@ -1,0 +1,1 @@
+ffmpeg -f dshow -i video="DEMO1 " -r 0.2 -qscale:v 2 "%%04d.jpg"
