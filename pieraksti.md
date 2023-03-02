@@ -24,4 +24,6 @@ ffmpeg -list_devices true -f dshow -i dummy
 
 [dshow @ 000001966f708b40]     Alternative name "@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{36D6AD78-0709-4908-A43D-D951972C9837}"
 
-dummy: Immediate exit requested
+
+
+ffmpeg -f dshow -i video="DEMO1 " -r 0.2 -qscale:v 2 "%04d.jpg"
